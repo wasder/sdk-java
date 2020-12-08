@@ -24,4 +24,8 @@ public class VisualRegressionTrackerConfig {
     private Boolean enableSoftAssert = false;
     @Builder.Default
     private String ciBuildId = null;
+    @Builder.Default
+    private String basicAuthLogin = null;
+    @Builder.Default
+    private String basicAuthPass = null;
 }
